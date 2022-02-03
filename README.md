@@ -19,7 +19,7 @@
 * The tests for BlackJack have already been completed. 
 
 ## Snap Tests
-* Please write each test and commit your work
+* Please write each test and commit your work, commenting on the method name created e.g. git commit -m "playToSevenHandCanPlaySevenToEmptyHand added".
 * Please write the code to pass the test and commit your work
   * isSnapWithSuit - Test if two cards of the same suit e.g. D3 and D4 will return true
   * isNotSnapWithRankAndSnapSuitOn - Test if two cards with the same face will return false e.g. C5 and H5
@@ -30,7 +30,7 @@
 * Please work through completing each test that has no code. Submit after the test has been completed and again after the code has been written to pass the test.
 * canPlayToSevenHandSevenEmpty - Can play a seven of hearts when the hand is empty.
 * Continue for the test of the failing tests.
-* 
+
 ## Submit
 * Before you commit you final solution, double check it can build and all the test you completed can run.
 * Go to the Week four folder and open the assessment
