@@ -33,7 +33,7 @@
 
 ## Sevens
 * An video explaining the sevens tests, see [link](https://uofglasgow.zoom.us/rec/share/WszGJGDM6LvE2t1J1uWdnu7XmP0pmq_vlEBxTqnVgzSAABV27DQgB1cXgcuO25ZF.HIOb1Ea89hGnx9Jp?startTime=1644252860000)
-* Please work through completing each test that has no code. Commit after the test has been completed and again after the code has been written to pass the test. Leave a comment for the commit.
+* Please work through completing each test that has no code. All the tests are for the playToSevenHand function. Commit after the test has been completed and again after the code has been written to pass the test. Leave a comment for the commit.
   * playToSevenHandCanPlaySevenToEmptyHand - Can play a seven of hearts when the hand is empty, same as canPlayToSevenHandSevenEmpty
   * playToSevenHandCanNotPlaySevenToHandWithCards - Can you play a seven of heats when the hand has cards, this should fail 
   * playToSevenHandSevenToEmptyHand - Actually play a seven of hearts to an empty hand, the card should be played
