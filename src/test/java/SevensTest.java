@@ -13,11 +13,6 @@ class SevensTest {
     }
 
     @Test
-    void canPlayToSevenHandSevenEmpty(){
-        fail("Not yet implemented"); //Remove
-    }
-
-    @Test
     void playToSevenHandCanPlaySevenToEmptyHand(){
         fail("Not yet implemented"); //Remove
     }

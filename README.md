@@ -36,11 +36,11 @@
   * playToSevenHandCanPlaySevenToEmptyHand - Can play a seven of hearts when the hand is empty, same as canPlayToSevenHandSevenEmpty
   * playToSevenHandCanNotPlaySevenToHandWithCards - Can you play a seven of heats when the hand has cards, this should fail 
   * playToSevenHandSevenToEmptyHand - Actually play a seven of hearts to an empty hand, the card should be played
-  * canPlayToSevenHandSixWithH7Hand - Can play a six of heart when a seven of hearts is already in the table hand
-  * canNotPlayToSevenHandFiveWithH7Hand - Can not play a five of hearts when only a seven of hearst has been played
+  * canPlayToSevenHandSixWithH7Hand - Can play a six of heart when a seven of hearts is already in the hand
+  * canNotPlayToSevenHandFiveWithH7Hand - Can not play a five of hearts when only a seven of hearst has been played into the hand
   * playToSevenHandSixWithH7Hand - Play the actually six of hearts to the hand when there is a seven of hearts already played 
-  * canPlayToSevenHandEightWithH7Hand - Can play the eight of hearts when only a seven of heart is already in the hand into the hand
-  * canNotPlayToSevenHandNineWithH7Hand - Can not play the nine of hearts when only a seven of hearts has already been played in the hand
+  * canPlayToSevenHandEightWithH7Hand - Can play the eight of hearts when only a seven of heart is already in the hand
+  * canNotPlayToSevenHandNineWithH7Hand - Can not play the nine of hearts when only a seven of hearts has already been played into the hand
   * playToSevenHandEightWithH7Hand - Actually play the eight of hearts to a hand with only the seven of hearts, check the card has been played to the hand
 * Try playing the game does it work
 
