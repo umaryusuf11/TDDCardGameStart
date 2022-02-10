@@ -32,7 +32,15 @@ public class Snap extends CardGame{
     }
 
     protected boolean isSnap(Card previousCard, Card currentCard, boolean snapOnSuit){
-        boolean cardsMatch = false;
+        if(snapOnSuit){
+            if(previousCard.getSuit() == currentCard.getSuit()){
+                return true;
+            }
+        }
+        else if(previousCard.getCardRank() == currentCard.getCardRank()){
+            return true;
+        }
+
         return false;
     }
 
