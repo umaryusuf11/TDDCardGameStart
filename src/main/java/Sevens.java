@@ -80,6 +80,18 @@ public class Sevens extends CardGame{
     }
 
     protected boolean playToSevenHand(Card card, Hand sevensHand, boolean playCard){
+        if ( card.getCardRank().getValue() == 7 && sevensHand.isEmpty()){
+            return true;
+        }
+        if (sevensHand.getLastCard().getCardRank().getRank() == card.getCardRank().getRank()-1){
+            return true;
+        }
+        if (sevensHand.getLastCard().getCardRank().getRank() == card.getCardRank().getRank()+1){
+            return true;
+        }
+        if (playCard){
+            sevensHand.add(card);
+        }
         return false;
     }
 
