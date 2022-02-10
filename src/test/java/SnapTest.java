@@ -15,7 +15,7 @@ class SnapTest {
 
     @Test
     void isNotSnapWithRankAndSnapSuitOn() {
-
+        assertFalse(snap.isSnap(new Card("C5"), new Card("H5"), true));
     }
 
 
