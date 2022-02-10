@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.concurrent.CancellationException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class SnapTest {
@@ -8,9 +10,7 @@ class SnapTest {
 
     @Test
     void isSnapWithSuit() {
-        Card c1 = new Card("D3");
-        Card c2 = new Card("D4");
-        assertTrue(snap.isSnap(c1, c2, true));
+        assertTrue(snap.isSnap(new Card("D3"), new Card("D4"), true));
     }
 
     @Test
