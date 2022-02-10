@@ -34,7 +34,7 @@ class SevensTest {
 
     @Test
     void canNotPlayToSevenHandFiveWithH7Hand(){
-        fail("Not yet implemented"); //Remove
+        assertFalse(sevens.playToSevenHand(new Card("H5"), new Hand("H7"),false));
     }
 
     @Test
