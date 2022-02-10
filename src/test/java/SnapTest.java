@@ -26,6 +26,6 @@ class SnapTest {
 
     @Test
     void isNotSnapWithSuitAndSnapSuitOff() {
-
+        assertFalse(snap.isSnap(new Card("D3"), new Card("D4"), false));
     }
 }
